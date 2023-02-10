@@ -2,6 +2,6 @@
 Rate quote contract reader
 Convert client rate quote contact into xml
 
-#Contract
+# contract
 One Line
 CMA Line
