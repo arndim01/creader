@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pattern.cma.project version ="1.0.00.0">
+  <patternkey name ="carrier">
+    <item>CMA</item>
+  </patternkey>
+  <patternkey name="valid_sheet_keywords">
+    <item>commodityindex</item>
+    <item>portgroupcodes</item>
+    <item>ratesconditions</item>
+    <item>reefer</item>
+    <item>specialequipment,hazardous,soc,oog</item>
+    <item>originarbitrarytable</item>
+    <item>destinationarbitrarytable</item>
+    <item>note1</item>
+    <item>note2</item>
+    <item>note3</item>
+    <item>note4</item>
+    <item>term101exceptions</item>
+  </patternkey>
+  
+  <patternkey name = "cma_commodity_header">
+    <item>commodityindex</item>
+  </patternkey>
+  <patternkey name = "cma_commodity_table">
+    <item>fak/bulletsdescriptionnamedaccountpartnercode</item>
+  </patternkey>
+  <patternkey name = "cma_commodity_table_column">
+    <item>fak/bullets</item>
+    <item>description</item>
+    <item>namedaccount</item>
+    <item>partnercode</item>
+  </patternkey>
+  
+  <patternkey name = "cma_portcode_header">
+    <item>portgroupcodes</item>
+  </patternkey>
+  <patternkey name = "cma_portcode_table">
+    <item>portgroupcodesdescription</item>
+  </patternkey>
+  <patternkey name = "cma_portcode_table_column">
+    <item>portgroupcodes</item>
+    <item>description</item>
+  </patternkey>
+
+  <patternkey name = "cma_rate_header">
+    <item>ratesconditions</item>
+  </patternkey>
+  <patternkey name = "cma_rate_table">
+    <item>fak/bulletsplaceofreceiptpolpodplaceofdelivery</item>
+  </patternkey>
+  <patternkey name = "cma_rate_table_column">
+    <item>fak/bullets</item>
+    <item>placeofreceipt</item>
+    <item>pol</item>
+    <item>pod</item>
+    <item>placeofdelivery</item>
+    <item>mode</item>
+    <item>sdd(origin;dest)</item>
+    <item>curr</item>
+    <item>d20</item>
+    <item>d40</item>
+    <item>h40</item>
+    <item>h45</item>
+    <item>effectivedate</item>
+    <item>expirationdate</item>
+    <item>note</item>
+    <item>ipiconstruction</item>
+  </patternkey>
+
+  <patternkey name = "cma_rate-re_header">
+    <item>reefer</item>
+  </patternkey>
+  <patternkey name = "cma_rate-re_table">
+    <item>fak/bulletsplaceofreceiptpolpodplaceofdelivery</item>
+  </patternkey>
+  <patternkey name = "cma_rate-re_table_column">
+    <item>fak/bullets</item>
+    <item>placeofreceipt</item>
+    <item>pol</item>
+    <item>pod</item>
+    <item>placeofdelivery</item>
+    <item>mode</item>
+    <item>sdd(origin;dest)</item>
+    <item>curr</item>
+    <item>rf20</item>
+    <item>rf40</item>
+    <item>rh40</item>
+    <item>type</item>
+    <item>shipperown</item>
+    <item>hazardous</item>
+    <item>effectivedate</item>
+    <item>expirationdate</item>
+    <item>note</item>
+    <item>ipiconstruction</item>
+  </patternkey>
+
+  <patternkey name = "cma_rate-sp_header">
+    <item>specialequipment</item>
+  </patternkey>
+  <patternkey name = "cma_rate-sp_table">
+    <item>fak/bulletsplaceofreceiptpolpodplaceofdelivery</item>
+  </patternkey>
+  <patternkey name = "cma_rate-sp_table_column">
+    <item>fak/bullets</item>
+    <item>placeofreceipt</item>
+    <item>pol</item>
+    <item>pod</item>
+    <item>placeofdelivery</item>
+    <item>mode</item>
+    <item>sdd(origin;dest)</item>
+    <item>curr</item>
+    <item>20</item>
+    <item>40</item>
+    <item>h40</item>
+    <item>h45</item>
+    <item>eqtype(ot,fr…)</item>
+    <item>oog</item>
+    <item>shipperown</item>
+    <item>hazardous</item>
+    <item>effectivedate</item>
+    <item>expirationdate</item>
+    <item>note</item>
+    <item>ipiconstruction</item>
+  </patternkey>
+
+  <patternkey name = "cma_o_arb_header">
+    <item>originarbitrarytable</item>
+  </patternkey>
+  <patternkey name = "cma_o_arb_table">
+    <item>countryplaceofreceiptpolmode</item>
+  </patternkey>
+  <patternkey name = "cma_o_arb_table_column">
+    <item>country</item>
+    <item>placeofreceipt</item>
+    <item>pol</item>
+    <item>mode</item>
+    <item>sdd(origin)</item>
+    <item>percontainer</item>
+    <item>curr</item>
+    <item>d20</item>
+    <item>d40</item>
+    <item>h40</item>
+    <item>h45</item>
+    <item>bulletexceptions</item>
+  </patternkey>
+
+  <patternkey name = "cma_d_arb_header">
+    <item>destinationarbitrarytable</item>
+  </patternkey>
+  <patternkey name = "cma_d_arb_table">
+    <item>countryplaceofdeliverypodmode</item>
+  </patternkey>
+  <patternkey name = "cma_d_arb_table_column">
+    <item>country</item>
+    <item>placeofdelivery</item>
+    <item>pod</item>
+    <item>mode</item>
+    <item>sdd(dest)</item>
+    <item>percontainer</item>
+    <item>curr</item>
+    <item>d20</item>
+    <item>d40</item>
+    <item>h40</item>
+    <item>h45</item>
+    <item>bulletexceptions</item>
+  </patternkey>
+
+  <patternkey name = "cma_general_surcharge_header">
+    <item>note2</item>
+  </patternkey>
+  <patternkey name = "cma_general_surcharge_table">
+    <item>generalsurchargesvalidtoallratesunlessotherwisespecified</item>
+  </patternkey>
+  <patternkey name = "cma_general_surcharge_special_column">
+    <item>containertype</item>
+  </patternkey>
+  <patternkey name = "cma_general_surcharge_table_column">
+    <item>containertype</item>
+    <item>fak/bullets</item>
+    <item>effectivedate</item>
+    <item>expirationdate</item>
+    <item>applicableport</item>
+    <item>finalplaceofdelivery</item>
+  </patternkey>
+
+  <patternkey name = "cma_gri_header">
+    <item>generalrateincrease(gri)</item>
+  </patternkey>
+  <patternkey name = "cma_gri_table">
+    <item>originpolpoddestination</item>
+  </patternkey>
+  <patternkey name = "cma_gri_table_column">
+    <item>origin</item>
+    <item>pol</item>
+    <item>pod</item>
+    <item>destination</item>
+    <item>eqtype</item>
+    <item>20</item>
+    <item>40</item>
+    <item>h40</item>
+    <item>h45</item>
+    <item>fixed</item>
+    <item>fak/bullets</item>
+    <item>applicationdate</item>
+  </patternkey>
+  
+  <patternkey name = "cma_ospf_header1">
+    <item>note3</item>
+  </patternkey>
+  <patternkey name = "cma_ospf_header2">
+    <item>ospf</item>
+  </patternkey>
+  <patternkey name = "cma_ospf_table">
+    <item>referencecontainertyperate</item>
+  </patternkey>
+  <patternkey name = "cma_ospf_table_column">
+    <item>reference</item>
+    <item>containertype</item>
+    <item>rate</item>
+  </patternkey>
+  
+  <patternkey name = "cma_note4_header">
+    <item>note4</item>
+  </patternkey>
+  <patternkey name = "cma_note4_table">
+    <item>comments</item>
+  </patternkey>
+  <patternkey name="cma_note4_table_column">
+    <item>code</item>
+    <item>definition</item>
+  </patternkey>
+  
+  <patternkey name = "cma_freetime_header">
+    <item>term101exceptions</item>
+  </patternkey>
+  <patternkey name = "cma_freetime_table">
+    <item>fak/bulletsexport/importfreetimetypetotaldaysgrantedcalendar/working</item>
+  </patternkey>
+  <patternkey name = "cma_freetime_table_column">
+    <item>fak/bullets</item>
+    <item>export/import</item>
+    <item>freetimetype</item>
+    <item>totaldaysgranted</item>
+    <item>calendar/working</item>
+    <item>equipmenttype</item>
+    <item>operatingreefer</item>
+    <item>placeofreceipt</item>
+    <item>pol</item>
+    <item>pod</item>
+    <item>placeofdelivery</item>
+    <item>notes</item>
+  </patternkey>
+  
+</pattern.cma.project>

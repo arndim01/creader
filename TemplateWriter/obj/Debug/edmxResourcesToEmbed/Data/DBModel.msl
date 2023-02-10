@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebAPIDBModelStoreContainer" CdmEntityContainer="WebAPIDBEntities1">
+    <EntitySetMapping Name="Carriers">
+      <EntityTypeMapping TypeName="WebAPIDBModel.Carrier">
+        <MappingFragment StoreEntitySet="Carrier">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="WebAPIDBModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name_hash" ColumnName="Name_hash" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City_Details">
+      <EntityTypeMapping TypeName="WebAPIDBModel.City_Details">
+        <MappingFragment StoreEntitySet="City_Details">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Mid" ColumnName="Mid" />
+          <ScalarProperty Name="Approved" ColumnName="Approved" />
+          <ScalarProperty Name="Fid" ColumnName="Fid" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="WebAPIDBModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Surcharge_d">
+      <EntityTypeMapping TypeName="WebAPIDBModel.Surcharge_d">
+        <MappingFragment StoreEntitySet="Surcharge_d">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unlocs">
+      <EntityTypeMapping TypeName="WebAPIDBModel.Unloc">
+        <MappingFragment StoreEntitySet="Unloc">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="iso" ColumnName="iso" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="state_code" ColumnName="state_code" />
+          <ScalarProperty Name="full_code" ColumnName="full_code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unloc_trade">
+      <EntityTypeMapping TypeName="WebAPIDBModel.Unloc_trade">
+        <MappingFragment StoreEntitySet="Unloc_trade">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Mid" ColumnName="Mid" />
+          <ScalarProperty Name="Export_code" ColumnName="Export_code" />
+          <ScalarProperty Name="Import_code" ColumnName="Import_code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unloc_trade_exception">
+      <EntityTypeMapping TypeName="WebAPIDBModel.Unloc_trade_exception">
+        <MappingFragment StoreEntitySet="Unloc_trade_exception">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Utid" ColumnName="Utid" />
+          <ScalarProperty Name="Export_code" ColumnName="Export_code" />
+          <ScalarProperty Name="Import_code" ColumnName="Import_code" />
+          <ScalarProperty Name="Approved" ColumnName="Approved" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Workflows">
+      <EntityTypeMapping TypeName="WebAPIDBModel.Workflow">
+        <MappingFragment StoreEntitySet="Workflow">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Hash" ColumnName="Hash" />
+          <ScalarProperty Name="Bodypart_name" ColumnName="Bodypart_name" />
+          <ScalarProperty Name="Bodypart_path" ColumnName="Bodypart_path" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Workflow_version">
+      <EntityTypeMapping TypeName="WebAPIDBModel.Workflow_version">
+        <MappingFragment StoreEntitySet="Workflow_version">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Fid" ColumnName="Fid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Ver" ColumnName="Ver" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

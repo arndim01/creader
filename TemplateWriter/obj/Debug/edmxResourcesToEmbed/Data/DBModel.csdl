@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebAPIDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Carrier">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Logo" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_hash" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Creator" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="City_Details" Relationship="Self.FK_City_Details_ToTable" FromRole="City" ToRole="City_Details" />
+  </EntityType>
+  <EntityType Name="City_Details">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Mid" Type="Int64" Nullable="false" />
+    <Property Name="Approved" Type="Boolean" Nullable="false" />
+    <Property Name="Fid" Type="Int64" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Creator" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="City" Relationship="Self.FK_City_Details_ToTable" FromRole="City_Details" ToRole="City" />
+    <NavigationProperty Name="Unloc" Relationship="Self.FK_City_Details_ToTable_1" FromRole="City_Details" ToRole="Unloc" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Logo" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Surcharge_d">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Unloc">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="iso" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="city" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="state" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="country" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="state_code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="full_code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="City_Details" Relationship="Self.FK_City_Details_ToTable_1" FromRole="Unloc" ToRole="City_Details" />
+    <NavigationProperty Name="Unloc_trade" Relationship="Self.FK_Unloc_trade_ToTable" FromRole="Unloc" ToRole="Unloc_trade" />
+  </EntityType>
+  <EntityType Name="Unloc_trade">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Mid" Type="Int64" Nullable="false" />
+    <Property Name="Export_code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Import_code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Unloc" Relationship="Self.FK_Unloc_trade_ToTable" FromRole="Unloc_trade" ToRole="Unloc" />
+    <NavigationProperty Name="Unloc_trade_exception" Relationship="Self.FK_Unloc_trade_exception_ToTable" FromRole="Unloc_trade" ToRole="Unloc_trade_exception" />
+  </EntityType>
+  <EntityType Name="Unloc_trade_exception">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Utid" Type="Int64" Nullable="false" />
+    <Property Name="Export_code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Import_code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Approved" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Creator" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Unloc_trade" Relationship="Self.FK_Unloc_trade_exception_ToTable" FromRole="Unloc_trade_exception" ToRole="Unloc_trade" />
+  </EntityType>
+  <EntityType Name="Workflow">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Hash" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Bodypart_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Bodypart_path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Creator" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Version" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Workflow_version" Relationship="Self.FK_Workflow_version_ToTable" FromRole="Workflow" ToRole="Workflow_version" />
+  </EntityType>
+  <EntityType Name="Workflow_version">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fid" Type="Int64" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ver" Type="Int32" Nullable="false" />
+    <Property Name="Creator" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Workflow" Relationship="Self.FK_Workflow_version_ToTable" FromRole="Workflow_version" ToRole="Workflow" />
+  </EntityType>
+  <Association Name="FK_City_Details_ToTable">
+    <End Role="City" Type="Self.City" Multiplicity="1" />
+    <End Role="City_Details" Type="Self.City_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="City_Details">
+        <PropertyRef Name="Fid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_City_Details_ToTable_1">
+    <End Role="Unloc" Type="Self.Unloc" Multiplicity="1" />
+    <End Role="City_Details" Type="Self.City_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unloc">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="City_Details">
+        <PropertyRef Name="Mid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Unloc_trade_ToTable">
+    <End Role="Unloc" Type="Self.Unloc" Multiplicity="1" />
+    <End Role="Unloc_trade" Type="Self.Unloc_trade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unloc">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Unloc_trade">
+        <PropertyRef Name="Mid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Unloc_trade_exception_ToTable">
+    <End Role="Unloc_trade" Type="Self.Unloc_trade" Multiplicity="1" />
+    <End Role="Unloc_trade_exception" Type="Self.Unloc_trade_exception" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unloc_trade">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Unloc_trade_exception">
+        <PropertyRef Name="Utid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Workflow_version_ToTable">
+    <End Role="Workflow" Type="Self.Workflow" Multiplicity="1" />
+    <End Role="Workflow_version" Type="Self.Workflow_version" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workflow">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Workflow_version">
+        <PropertyRef Name="Fid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WebAPIDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Carriers" EntityType="Self.Carrier" />
+    <EntitySet Name="Cities" EntityType="Self.City" />
+    <EntitySet Name="City_Details" EntityType="Self.City_Details" />
+    <EntitySet Name="Clients" EntityType="Self.Client" />
+    <EntitySet Name="Surcharge_d" EntityType="Self.Surcharge_d" />
+    <EntitySet Name="Unlocs" EntityType="Self.Unloc" />
+    <EntitySet Name="Unloc_trade" EntityType="Self.Unloc_trade" />
+    <EntitySet Name="Unloc_trade_exception" EntityType="Self.Unloc_trade_exception" />
+    <EntitySet Name="Workflows" EntityType="Self.Workflow" />
+    <EntitySet Name="Workflow_version" EntityType="Self.Workflow_version" />
+    <AssociationSet Name="FK_City_Details_ToTable" Association="Self.FK_City_Details_ToTable">
+      <End Role="City" EntitySet="Cities" />
+      <End Role="City_Details" EntitySet="City_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_City_Details_ToTable_1" Association="Self.FK_City_Details_ToTable_1">
+      <End Role="Unloc" EntitySet="Unlocs" />
+      <End Role="City_Details" EntitySet="City_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Unloc_trade_ToTable" Association="Self.FK_Unloc_trade_ToTable">
+      <End Role="Unloc" EntitySet="Unlocs" />
+      <End Role="Unloc_trade" EntitySet="Unloc_trade" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Unloc_trade_exception_ToTable" Association="Self.FK_Unloc_trade_exception_ToTable">
+      <End Role="Unloc_trade" EntitySet="Unloc_trade" />
+      <End Role="Unloc_trade_exception" EntitySet="Unloc_trade_exception" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Workflow_version_ToTable" Association="Self.FK_Workflow_version_ToTable">
+      <End Role="Workflow" EntitySet="Workflows" />
+      <End Role="Workflow_version" EntitySet="Workflow_version" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

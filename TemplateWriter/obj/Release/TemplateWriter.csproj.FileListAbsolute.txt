@@ -1,0 +1,27 @@
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\TemplateWriter.exe.config
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\TemplateWriter.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\TemplateWriter.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\EntityFramework.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\Newtonsoft.Json.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\EntityFramework.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Release\Newtonsoft.Json.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Release\TemplateWriter.csprojResolveAssemblyReference.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Release\TemplateWriter.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Release\TemplateWriter.pdb
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\TemplateWriter.exe.config
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\TemplateWriter.exe
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\TemplateWriter.pdb
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\EntityFramework.dll
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\Newtonsoft.Json.dll
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\EntityFramework.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Release\Newtonsoft.Json.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\obj\Release\TemplateWriter.csprojResolveAssemblyReference.cache
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\obj\Release\TemplateWriter.exe
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\obj\Release\TemplateWriter.pdb

@@ -1,0 +1,57 @@
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.exe.config
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.csprojResolveAssemblyReference.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.pdb
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.exe.config
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.exe
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.pdb
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.exe
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.pdb
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.csprojResolveAssemblyReference.cache
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\WebAPIDB.mdf
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\WebAPIDB_log.ldf
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\EntityFramework.dll
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\EntityFramework.xml
+C:\Users\arndi\OneDrive\Desktop\Office Work\OFFICE PROJECT\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\EntityFramework.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\EntityFramework.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\SYNC_PROJECT\WebAPI\TemplateWriter\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.exe.config
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.exe
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\TemplateWriter.pdb
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\EntityFramework.dll
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\EntityFramework.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.csprojResolveAssemblyReference.cache
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.exe
+C:\Users\nel\Desktop\Development Code\WebAPI\TemplateWriter\obj\Debug\TemplateWriter.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\obj\Debug\TemplateWriter.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\obj\Debug\TemplateWriter.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\TemplateWriter.exe.config
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\TemplateWriter.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\TemplateWriter.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\EntityFramework.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\EntityFramework.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\obj\Debug\TemplateWriter.csprojAssemblyReference.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\obj\Debug\TemplateWriter.csproj.CoreCompileInputs.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\TemplateWriter\obj\Debug\TemplateWriter.csproj.CopyComplete

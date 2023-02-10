@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<pattern.nyk.project version="1.0.0.0">
+	<patternkey name="carrier">
+		<item>NYK</item>
+	</patternkey>
+	<patternkey name="main_search">
+		<item>6.rate</item>
+		<item>6-1.generalrate</item>
+		<item>6-2.specialrate</item>
+		<item>6-3.originarbitrary</item>
+		<item>6-4.destinationarbitrary</item>
+	</patternkey>
+	<patternkey name="main_search_type">
+		<item>Last[1,3]</item>
+	</patternkey>
+  <patternkey name="kill_search">
+    <item>g.o.h</item>
+    <item>liquidateddamagesfornon-performnace,ifany</item>
+    <item>liquidateddamagesfornon-performance,ifany</item>
+    <item>LIQUIDATED DAMAGES FOR NON-PERFORMNACE, IF ANY</item>
+  </patternkey>
+	<patternkey name="header_search">
+		<item>scope</item>
+		<item>commodity</item>
+		<item>origin</item>
+		<item>origin via</item>
+	</patternkey>
+	<patternkey name="footer_search">
+		<item>no notes</item>
+		<item>notes</item>
+		<item>general notes</item>
+	</patternkey>
+	<patternkey name="arbs_header_search">
+		<item>scope</item>
+		<item>via</item>
+	</patternkey>
+	<patternkey name="arbs_footer_search">
+		<item>notes</item>
+		<item>new inland</item>
+	</patternkey>
+	<patternkey name="main_search_rates">
+		<item>6.rate</item>
+		<item>6-1.generalrate</item>
+		<item>6-2.specialrate</item>
+	</patternkey>
+	<patternkey name="main_search_arbs">
+		<item>6-3.originarbitrary</item>
+		<item>6-4.destinationarbitrary</item>
+	</patternkey>
+	<patternkey name="origin_arbs">
+		<item>6-3.originarbitrary</item>
+	</patternkey>
+	<patternkey name="destination_arbs">
+		<item>6-4.destinationarbitrary</item>
+	</patternkey>
+	<patternkey name="keywords">
+		<item>[;]</item>
+		<item>commodity:;:</item>
+		<item>origin:;:</item>
+		<item>via:;:</item>
+	</patternkey>
+	<patternkey name="table_rates_search">
+		<item>destinationcntry</item>
+	</patternkey>
+  <patternkey name="table_arbsvia_search">
+		<item>applicableover:</item>
+	</patternkey>
+	<patternkey name="table_arbs_search">
+		<item>pointcntry</item>
+	</patternkey>
+	<patternkey name="notes_arbs_search">
+		<item>note</item>
+	</patternkey>
+	<patternkey name="key_words_body">
+		<item>destination</item>
+    <item>cntry</item>
+		<item>destinationvia</item>
+		<item>term</item>
+		<item>type</item>
+		<item>cur</item>
+		<item>directcall</item>
+		<item>note</item>
+	</patternkey>
+  <patternkey name="key_duplicate">
+		<item>cntry</item>
+  </patternkey>
+	<patternkey name="key_words_rates">
+		<item>20'</item>
+		<item>40'</item>
+		<item>40hc</item>
+		<item>45'</item>
+	</patternkey>
+	<patternkey name="key_words_body_arbs">
+		<item>point</item>
+    <item>cntry</item>
+		<item>term</item>
+		<item>via</item>
+		<item>mode</item>
+		<item>type</item>
+		<item>cur</item>
+		<item>cmdt</item>
+		<item>directcall</item>
+  	<item>note</item>
+		<item>note_remarks</item>
+		<item>box</item>
+		<item>20'</item>
+		<item>40'</item>
+		<item>40hc</item>
+		<item>45'</item>
+    <item>typedata</item>
+	</patternkey>
+	<patternkey name="key_words_rates_arbs">
+		<item>box</item>
+		<item>20'</item>
+		<item>40'</item>
+		<item>40hc</item>
+		<item>45'</item>
+	</patternkey>
+  <patternkey name="key_words_notes">
+		  <item>note for commodity</item>
+      <item>note for bullet</item>
+	</patternkey>
+  <patternkey name="key_words_header_commodity_condition">
+    <item>excludingssss</item>
+    <item>nacsssssssss</item>
+    <item>namedsssssssssssssccount</item>
+    <item>nameacssssssscount</item>
+  </patternkey>
+  <patternkey name="key_words_header_commodity">
+    <item>commodity</item>
+  </patternkey>
+</pattern.nyk.project>	
+

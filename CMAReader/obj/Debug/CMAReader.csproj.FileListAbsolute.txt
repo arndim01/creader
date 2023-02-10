@@ -1,0 +1,23 @@
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CMAReader\bin\Debug\CMAReader.exe.config
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CMAReader\bin\Debug\CMAReader.exe
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CMAReader\bin\Debug\CMAReader.pdb
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CMAReader\obj\Debug\CMAReader.csprojResolveAssemblyReference.cache
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CMAReader\obj\Debug\CMAReader.exe
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CMAReader\obj\Debug\CMAReader.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\CMAReader.exe.config
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\CMAReader.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\CMAReader.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\obj\Debug\CMAReader.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\obj\Debug\CMAReader.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\obj\Debug\CMAReader.csprojAssemblyReference.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\obj\Debug\CMAReader.csproj.CoreCompileInputs.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\obj\Debug\CMAReader.Properties.Resources.resources
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\obj\Debug\CMAReader.csproj.GenerateResource.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\ClosedXML.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\ExcelNumberFormat.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\FastMember.Signed.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\obj\Debug\CMAReader.csproj.CopyComplete
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CMAReader\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,73 @@
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\CReaderUI.exe.config
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\CReaderUI.exe
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\CReaderUI.pdb
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\Bunifu_UI_v1.5.3.dll
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\Manager.dll
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\Manager.pdb
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI.csprojResolveAssemblyReference.cache
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI.Properties.Resources.resources
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI._FormApp.resources
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI.csproj.GenerateResource.Cache
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI.exe
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI.pdb
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI.FormControl.Dashboard.resources
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI.FormControl.FileManager.resources
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\obj\Debug\CReaderUI._FormDialog.resources
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\ONEReader.exe
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\ClosedXML.dll
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\DocumentFormat.OpenXml.dll
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\ExcelNumberFormat.dll
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\FastMember.Signed.dll
+c:\users\nel\documents\visual studio 2015\Projects\CReader\CReaderUI\bin\Debug\ONEReader.pdb
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\CReaderUI.exe.config
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI.exe
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI.pdb
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\CReaderUI.exe
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\CReaderUI.pdb
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\Manager.dll
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\ONEReader.exe
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\ClosedXML.dll
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\ExcelNumberFormat.dll
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\FastMember.Signed.dll
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\Manager.pdb
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\bin\Debug\ONEReader.pdb
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI.FormControl.Dashboard.resources
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI.FormControl.FileManager.resources
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI.Properties.Resources.resources
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI._FormApp.resources
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI._FormDialog.resources
+C:\Users\User\Desktop\OFFICE PROJECT\CReader\CReaderUI\obj\Debug\CReaderUI.csproj.GenerateResource.Cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\CReaderUI.exe.config
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\CReaderUI.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\CReaderUI.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\Manager.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\ONEReader.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\ClosedXML.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\ExcelNumberFormat.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\FastMember.Signed.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\Manager.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\ONEReader.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.FormControl.Dashboard.resources
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.FormControl.FileManager.resources
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.Properties.Resources.resources
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI._FormApp.resources
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI._FormDialog.resources
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.csproj.GenerateResource.Cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI._FormDonwloadDialog.resources
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\TemplateWriter.exe
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\TemplateWriter.pdb
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\ONEReader.exe.config
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\bin\Debug\TemplateWriter.exe.config
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.csprojAssemblyReference.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.csproj.CoreCompileInputs.cache
+C:\Users\nel\Desktop\NYK_BASE_CODE\CReader\CReaderUI\obj\Debug\CReaderUI.csproj.CopyComplete
